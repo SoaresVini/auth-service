@@ -31,18 +31,7 @@ cd auth-service
 bundle install
 ```
 
-### 3. Configure as variáveis de ambiente
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-RAILS_ENV=development
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/auth_service_development
-REDIS_URL=redis://localhost:6379/0
-SECRET_KEY_BASE=sua_chave_secreta_aqui
-```
-
-### 4. Configure o banco de dados
+### 3. Configure o banco de dados
 
 ```bash
 rails db:create db:migrate
