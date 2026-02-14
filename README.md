@@ -47,8 +47,6 @@ O serviço estará disponível em `http://localhost:3001`.
 
 ---
 
-Este serviço faz parte de uma arquitetura de microsserviços e deve ser executado junto aos demais serviços via Docker Compose. Na raiz do projeto principal, execute:
-
 ## Endpoints da API
 
 ### Autenticação
